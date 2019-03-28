@@ -1494,7 +1494,7 @@ build_test_stats() {
 prompt_time() {
   set_default POWERLEVEL9K_TIME_FORMAT "%D{%H:%M:%S}"
 
-  "$1_prompt_segment" "$0" "$2" "$DEFAULT_COLOR_INVERTED" "$DEFAULT_COLOR" "$POWERLEVEL9K_TIME_FORMAT" "TIME_ICON"
+  "$1_prompt_segment" "$0" "$2" "$DEFAULT_COLOR_INVERTED" "$DEFAULT_COLOR" "$POWERLEVEL9K_TIME_FORMAT" 
 }
 
 ################################################################
